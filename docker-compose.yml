@@ -1,0 +1,39 @@
+version: "3.8"
+
+# services: 
+#   # postgres: postgres version
+#   restart: always
+#   environment:
+#     - 
+
+
+server:
+  container_name: terminal_client
+  restart: unless-stopped
+  image: terminal-client-prod:0.0.1
+  build:
+    contect: client
+    target: production
+    dockerfile: Dockerfile
+  ports:
+    - 4000:4001
+  networks:
+      -shared-networks
+
+client:
+  container_name: terminal_server
+  restart: unless-stopped
+  image: terminal-server-prod:0.0.1
+  build:
+    contect: server
+    target: production
+    dockerfile: Dockerfile
+  ports:
+    - 4000:4001
+  depends_on:
+    - server
+  networks:
+      -shared-networks
+
+networks:
+  shared-network:
