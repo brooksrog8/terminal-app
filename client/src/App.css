@@ -1,0 +1,49 @@
+
+.App {
+  background-color: #212942;
+  color: white;
+  height: 120vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow: auto;
+  margin-top: -50px; 
+}
+
+
+pre {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 70vhvh; /* Optional: To make sure it takes the full height of the viewport */
+}
+
+input{
+  border: none;
+  outline: none;
+  margin-top: 12px;
+  padding: 0;
+  background-color: transparent;
+  color: white;
+  width: 100%;
+}
+
+
+.terminal {
+  white-space: pre-line;
+}
+
+.login-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+.user-input {
+  color: #00ff7f; /* Green color */
+}
+
+.orange-link {
+  color: orange;
+}
+

@@ -1,0 +1,13 @@
+{
+  "name": "Brooks",
+  "user": "user@brooksCodes:$ ~ ",
+  "userconf": "$",
+  "ls": "list of projects",
+  "help": "summary repo \n ls help  \n homelab contact ",
+  "summary": "This is an app I created to display my knowledge of fullstack engineering by: \n Developing the backend with PostgreSQL, nodeJS and express \n Style the terminal view with ReactJS html/css \n Deploying to AWS using NGINX, and docker. \n \n  I developed this app over winter break with the goal to practice my skills in \n implementing user authentication, authorization and login using nodeJS and express \n with a PostgreSQL database along with passports to help manage the \n logged state of users. \n \n  I also implemented password encryption using \n bcrypt to hash all user passwords so that user info is secure. \n \n For the client view I used ReactJS to create the terminal view that you're on now.",
+  "email": "bcr9868@utulsa.edu",
+  "pwd": "/home/brooksCodes",
+  "cd": "slow ur roll",
+  "whoami": "dirty dan",
+  "echo": "echoo echoo echoo echoo"
+}
