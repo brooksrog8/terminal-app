@@ -15,4 +15,4 @@ jobs:
       env:
         ACTIONS_STEP_DEBUG: true
         DEFAULT_BRANCH: main
-        GITHUB_tOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
